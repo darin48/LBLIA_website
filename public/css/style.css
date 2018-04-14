@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	border-bottom: 1px dotted #38655c;
+	color: #38655c;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px dotted #498379;
+	color: #498379;
+	text-decoration: none;
+}
+body {
+	background: url(../images/bg.jpg) repeat-x #fff;
+	font: normal 12px Arial,sans-serif;
+	margin: 0;
+	color: #333;
+}
+
+p,ul {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	margin-bottom: 4px;
+	font-weight: 200;
+	color: #38655c;
+}
+
+h2 {
+	color: #cea45c;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+h1,h2,h3 {
+	padding-top: 6px;
+}
+
+.small {
+	font-size: 12px;
+	text-align: center;
+}
+
+.clearer {
+	clear: both;
+}
+
+img {
+	border: none;
+}
+
+img a:link {
+	border: none;
+}
+
+img a:hover {
+	border: none;
+}
+
+a[href $='.pdf'] {
+   padding-right: 18px;
+   background: transparent url(../images/icon_pdf.gif) no-repeat center right;
+   border-bottom: none;
+}
+
+
+#container {
+	margin: auto;
+	padding: 0;
+	width: 780px;
+}
+
+#header {
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 780px;
+}
+
+/* top navigation */
+#nav {
+	margin: 0;
+	padding: 0;
+	height: 39px;
+	list-style: none;
+	display: inline;
+	overflow: hidden;
+	width: 780px;
+	}
+
+#nav li {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+	display: inline;
+	}
+
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow: hidden;
+}
+
+#nav a {
+	float: left;
+	padding: 39px 0 0 0;
+	overflow: hidden;
+	height: 0px !important;
+	height /**/:55px; /* for IE5/Win only */
+	border-bottom: none;
+	}
+
+#nav a:hover {
+	background-position: 0 -39px;
+	border-bottom: none;
+	}
+
+#nav a:active, #nav a.selected {
+	background-position: 0 -39px;
+	}
+
+#home a  {
+	width: 92px;
+	background: url(../images/home.png);
+	}
+
+#calendar a  {
+	width: 119px;
+	background: url(../images/cal.png);
+	}
+
+#history a  {
+	width: 98px;
+	background: url(../images/hist.png);
+	}
+
+#contact a  {
+	width: 99px;
+	background: url(../images/cont.png);
+	}
+
+#nav5 a  {
+	width: 99px;
+	background: url(../images/nav_05.png);
+	}
+
+#nav6 a  {
+	width: 86px;
+	background: url(../images/nav_06.png);
+	}
+
+#nav7 a  {
+	width: 119px;
+	background: url(../images/nav_07.png);
+	}
+
+.banner {
+	background: url(../images/bg_duck.jpg) no-repeat;
+	padding: 60px 360px 20px 20px;
+	height: 180px;
+	width: 400px;
+}
+
+
+/* content */
+.content {
+	float: left;
+	width: 540px;
+}
+.content .item {
+	padding: 5px 10px 10px 10px;
+	border: 1px solid #EEE;
+	background: #FFF;
+	margin-bottom: 8px;
+}
+
+.content li {
+	list-style:  url(../images/li.png);
+	margin-left: 30px;
+}
+
+.content li a {
+	color: #111
+}
+
+.content li a:hover {
+	color: #996633
+}
+
+.floatleft {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* Home Page Only Items */
+
+.left {
+	float: left;
+	width: 490px;
+	margin: 10px;
+	padding-bottom: 50px;
+}
+
+.right {
+	float: right;
+	width: 200px;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+.right img {
+	margin-bottom: -10px;
+}
+
+.right a {
+	border-bottom: none;
+}
+
+.right a:hover {
+	border-bottom: none;
+}
+
+.frontpics {
+	width: 780px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.paddingright {
+	padding-right: 32px;
+}
+
+.frontpics img {
+	border: 0;
+}
+
+.frontpics a {
+	border: 0;
+	text-decoration: none;
+}
+
+
+
+/* All other page items */
+
+.sidebar {
+	width: 230px;
+	padding: 10px;
+	float: right;
+}
+
+.sidebar a {
+	border: none;
+}
+
+.content2 {
+	width: 500px;
+	float: left;
+	padding: 10px;
+}
+
+.contact {
+	border-top: #498379 dotted 1px;
+	border-bottom: #498379 dotted 1px;
+	padding: 10px 0px 10px 0px;
+}
+
+.contact img {
+	float: right;
+	margin-top: -60px;
+	width: 89px;
+	height: 71px;
+	border: 0px;
+}
+
+.contact.a.img.contact_email {
+	width: 120px;
+	height: 150px;
+	border: 0px;
+	background-color: #864b4b;
+}
+
+.contact a {
+	border-bottom: none;
+}
+
+.contact a:hover {
+	border-bottom: none;
+}
+
+
+/* footer */
+.footer {
+	width: auto;
+	height: 100px;
+	background: url(../images/bg_footer.jpg) repeat-x #498379;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	color: #fff;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.footer a:visited {
+	color: #fff;
+}
