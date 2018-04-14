@@ -3,7 +3,7 @@ var app = express(); 						// create our app w/ express
 var http = require("http");
 var fs = require('fs');
 var morgan = require('morgan');
-var port = 3000;
+var port = 8080;
 var serverUrl = "127.0.0.1";
 
 console.log("dirname is: " + __dirname);
